@@ -30,7 +30,7 @@ public class QLSV {
         }
     }
     private String ShortInp(String x){
-        System.out.print("Nhap vao " + x +" :");
+        System.out.print("Nhap vao " + x +" : ");
         return sc.nextLine();
     }
     public static void main(String[] args) {
