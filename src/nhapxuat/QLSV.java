@@ -5,6 +5,7 @@
 package nhapxuat;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 /**
  *
@@ -12,10 +13,29 @@ import java.util.ArrayList;
  */
 public class QLSV {
     ArrayList<Stu> stuL = new ArrayList<>();
-    
+    Scanner sc = new Scanner(System.in);
+    private void nhapTT(){
+        while(true){
+            stuL.add(new Stu(ShortInp("ten"), Integer.parseInt(ShortInp("Tuoi"))));
+            boolean check = false;
+            System.out.println("Nhan space de thoat !");
+            if(sc.nextLine().equals(" ")){
+                break;
+            }
+        }
+    }
     private void xuatTT(){
         for (Stu stu : stuL) {
             System.out.println(stu);
         }
+    }
+    private String ShortInp(String x){
+        System.out.print("Nhap vao " + x +" :");
+        return sc.nextLine();
+    }
+    public static void main(String[] args) {
+        QLSV ql = new QLSV();
+        ql.nhapTT();
+        ql.xuatTT();
     }
 }
