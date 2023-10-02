@@ -4,10 +4,18 @@
  */
 package nhapxuat;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Admin
  */
 public class QLSV {
+    ArrayList<Stu> stuL = new ArrayList<>();
     
+    private void xuatTT(){
+        for (Stu stu : stuL) {
+            System.out.println(stu);
+        }
+    }
 }

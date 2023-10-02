@@ -35,5 +35,10 @@ public class Stu {
     public void setAge(int age) {
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        return "Stu{" + "name=" + name + ", age=" + age + '}';
+    }
     
 }
