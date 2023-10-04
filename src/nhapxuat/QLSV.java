@@ -52,4 +52,8 @@ public class QLSV {
         System.out.println("ahihi");
                 
     }
+    public void huhuhu() {
+        System.out.println("huhuhuh");
+                
+    }
 }
