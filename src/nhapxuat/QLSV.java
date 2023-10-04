@@ -47,4 +47,12 @@ public class QLSV {
     public static void abc(){
         System.out.println("hoan ga");
     }
+    public void ahhu() {
+        System.out.println("ahihi");
+                
+    }
+    public void ahihi() {
+        System.out.println("ahihi");
+                
+    }
 }
