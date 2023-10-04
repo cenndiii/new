@@ -51,4 +51,8 @@ public class QLSV {
     public static void db(){
         System.out.println("hoan hkt");
     }
+
+     public static void dbo(){
+        System.out.println("hoan hkt");
+    }
 }
