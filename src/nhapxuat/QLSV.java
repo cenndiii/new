@@ -54,6 +54,9 @@ public class QLSV {
     }
     public void huhuhu() {
         System.out.println("huhuhuh");
-                
+    }
+    
+      public void lewlew() {
+        System.out.println("lewlew");
     }
 }
