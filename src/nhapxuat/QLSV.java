@@ -37,5 +37,10 @@ public class QLSV {
         QLSV ql = new QLSV();
         ql.nhapTT();
         ql.xuatTT();
+        read();
+    }
+
+    public void read(){
+        System.out.println("hi ....")
     }
 }
