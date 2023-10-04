@@ -40,7 +40,11 @@ public class QLSV {
         read();
     }
 
-    public void read(){
-        System.out.println("hi ....")
+    public static void read(){
+        System.out.println("hi ....");
+    }
+    
+    public static void abc(){
+        System.out.println("hoan ga");
     }
 }
