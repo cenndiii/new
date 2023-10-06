@@ -50,5 +50,16 @@ public class QLSV {
 
     public static void db(){
         System.out.println("hoan hkt");
+    
+    public void ahihi() {
+        System.out.println("ahihi");
+                
+    }
+    public void huhuhu() {
+        System.out.println("huhuhuh");
+    }
+    
+    public void lewlew() {
+        System.out.println("lewlew");
     }
 }
